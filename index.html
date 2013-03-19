@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TrashVille</title>
+	
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.0, user-scalable=0" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta names="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+	
+  <script src="js/hide-address-bar.js"></script>
+  
+	<style type="text/css">
+	html,body 
+  {
+    background: black;
+	  margin:0px;
+	  padding:0px;
+
+    min-height: 300px;
+    max-width: 560px;
+    overflow: hidden;
+    position: relative;
+    
+    z-index: 1;
+	}
+
+	canvas
+  {
+    background-color: transparent;
+	  outline:0;
+	  border:0px solid #000;
+	  margin: 0 auto;
+	  padding: 0;
+    
+    z-index: 1;
+	}
+  
+  #scoreBar 
+  {
+    background: red;
+    display: none;
+    height: 40px;
+    width: 350px;
+    
+    margin: 0 0 0 -175px;
+    
+    left: 50%;
+    top: 10px;
+    position: fixed;
+    
+    z-index: 100;
+  }
+	</style>
+</head>
+<body>
+<div id="scoreBar">ScoreBar</div>
+<div id="gameContainter"></div>
+<canvas id='c'></canvas>
+<script src="js/game/draglayer.js"></script>
+<script src="js/game/background.js"></script>
+<script src="js/game/buildings.js"></script>
+<script src="js/game/villager.js"></script>
+<script src="js/game/game.js"></script>
+</body>
+</html>
