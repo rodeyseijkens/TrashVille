@@ -238,7 +238,7 @@ var gameInit = function(){
   bg0 = new background(baseLayer,"bg.png", 700, 300, 0, 0, 0.05, 1);
   bg1 = new background(baseLayer,"topCave.png", 825, 146, -50, 0, 0.1, 1);
   bg2 = new background(baseLayer,"botCave.png", 599, 70, 100, 220, 0.3, 1);
-  bg3 = new background(baseLayer,"ground.png", 1600, 29, -100, 271, 1, 1);
+  bg3 = new background(baseLayer,"ground.png", 1600, 29, -50, 271, 1, 1);
   
   // Buildings - parentLayer, imgSrc, width, height, posX, posY, parallaxOffsetX, parallaxOffsetY
   building0 = new building(baseLayer, "building0.png", 103, 180, 90, 110, 0.90, 1);
