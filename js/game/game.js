@@ -246,6 +246,8 @@ var gameInit = function(){
   building2 = new building(baseLayer, "building1.png", 102, 160, 182, 130, 0.90, 1);
   building3 = new building(baseLayer, "building3.png", 246, 100, 490, 190, 0.90, 1);
   building4 = new building(baseLayer, "building4.png", 95, 160, 740, 131, 0.90, 1);
+  building5 = new building(baseLayer, "building4.png", 192, 180, 900, 131, 0.90, 1);
+  building6 = new building(baseLayer, "building4.png", 112, 229, 1100, 131, 0.90, 1);
   
   
   // Create Villagers
